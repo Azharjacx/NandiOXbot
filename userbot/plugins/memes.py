@@ -882,7 +882,7 @@ async def vapor(vpr):
 @register(outgoing=True, pattern="^.repo$")
 async def source(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("Click [here](https://github.com/Dark-Princ3/X-tra-Telegram) to open this lit af repo.")
+        await e.edit("Click [here](https://github.com/rishabh-lohiya16/NandiOXbot) to open this lit af repo.")
 			  
 			  
 @register(outgoing=True, pattern="^.str(?: |$)(.*)")
@@ -955,7 +955,7 @@ async def hoi(hello):
     if not hello.text[0].isalpha() and hello.text[0] not in ("/", "#", "@", "!"):
         await hello.edit(random.choice(HELLOSTR))
 			  
-@register(outgoing=True, pattern="^.kill$")
+@register(outgoing=True, pattern="^.killu$")
 async def killing (killed):
     """ Dont Kill Too much -_-"""
     if not killed.text[0].isalpha() and killed.text[0] not in ("/", "#", "@", "!"):
