@@ -1,5 +1,5 @@
 {
-  "name": "Nandi",
+  "name": "NandiOXbot",
   "description": "Userbot created by a SNAPDRAGON and custom fork by OPen Camera\n\n join https://t.me/XtraTgChat for any problems or support",
   "logo": "https://telegra.ph/file/8bbfbfe864ac8ebf601cc.jpg",
   "keywords": [
@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/rishabh-lohiya16/Nandi/",
+  "repository": "https://github.com/rishabh-lohiya16/NandiOXbot/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
