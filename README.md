@@ -11,7 +11,7 @@ Join https://t.me/XtraTgBot for updates and tuts
 Simply clone the repository and run the main file:
 ```sh
 git clone https://github.com/rishabh-lohiya16/Nandi
-cd Nandi
+cd NandiOXbot
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
 pip install -r requirements.txt
