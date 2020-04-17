@@ -10,7 +10,7 @@ Join https://t.me/XtraTgBot for updates and tuts
 
 Simply clone the repository and run the main file:
 ```sh
-git clone https://github.com/rishabh-lohiya16/Nandi
+git clone https://github.com/rishabh-lohiya16/NandiOXbot
 cd NandiOXbot
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
