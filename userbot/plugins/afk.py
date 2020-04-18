@@ -45,9 +45,9 @@ async def _(event):
             afk_time = datetime.datetime.now()  # pylint:disable=E0602
         USER_AFK = f"yes: {reason}"  # pylint:disable=E0602
         if reason:
-            await borg.send_message(event.chat_id, f"**I shall be Going afk!** __because ~ {reason}__")
+            await borg.send_message(event.chat_id, f"**Me to ja rha** __Kunki ~ {reason}__")
         else:
-            await borg.send_message(event.chat_id, f"**I am Going afk!**")
+            await borg.send_message(event.chat_id, f"**Soone jaa rha pta nhi kb aunga**")
         await asyncio.sleep(5)
         await event.delete()
         try:
@@ -145,7 +145,7 @@ async def on_afk(event):
             else:
                 afk_since = f"`{int(seconds)}s` **ago**"
         msg = None
-        message_to_reply = f"__My Master Has Been Gone For__ `{total_afk_time}`\nWhere He Is: ~~ONLY GOD KNOWS~~ " + \
+        message_to_reply = f"__My Noob SON Has Been Gone For__ `{total_afk_time}`\nWhere He Is: ~~ONLY GOD KNOWS~~ " + \
             f"\n\n__I promise I'll back in a few light years__\n**REASON**: {reason}" \
             if reason \
             else f"**Heya!**\n__I am currently unavailable. Since when, you ask? For {total_afk_time} I guess.__\n\nWhen will I be back? ~~Soon~~ __Whenever I feel like it__**( ಠ ʖ̯ ಠ)**  "
